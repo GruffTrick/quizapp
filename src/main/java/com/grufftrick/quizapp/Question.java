@@ -8,6 +8,9 @@ import lombok.Data;
 
 /**
  * Model Class for the Question Object Type
+ * Each question has its own unique identifier, followed by attributes.
+ * Each question has a Title (question form), category and selectable options (answers),
+ * and a single correct answer.
  */
 @Data
 @Entity
@@ -23,7 +26,4 @@ public class Question {
     private String option3;
     private String correctAnswer;
     private String difficultyLevel;
-
-
-
 }
