@@ -45,7 +45,6 @@ public class QuestionService {
 
     public ResponseEntity<String> addQuestion(Question question) {
         //TODO: Add Failure text
-
         questionDAO.save(question);
         return new ResponseEntity<>("Added question successfully", HttpStatus.CREATED);
     }
