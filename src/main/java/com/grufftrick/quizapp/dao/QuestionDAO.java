@@ -10,7 +10,7 @@ import java.util.List;
 
 /**
  * Data Access Object for the application (implementation) layer.
- * An interface for the persistent quiz data stored in the Database.
+ * An interface for the persistent question data stored in the Database.
  */
 @Repository
 public interface QuestionDAO extends JpaRepository<Question, Integer> {

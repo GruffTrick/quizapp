@@ -2,6 +2,10 @@ package com.grufftrick.quizapp.model;
 
 import lombok.Data;
 
+/**
+ * Wraps questions for the user.  Only includes the question id, title,
+ * along with the multiple choice answers.
+ */
 @Data
 public class QuestionWrapper {
     public QuestionWrapper(Integer id, String questionTitle, String option1, String option2, String option3) {
