@@ -1,10 +1,10 @@
 /**
  * @author Gruffudd Trick
- * @version 0.1
+ * @version 0.4
  *
- * A quiz application, built with Spring Boot.
+ * A quiz web application, built with Spring Boot.
  * Utilises an PostgreSQL database backend to store quiz data.
- * A RESTful API allows interaction with the implementation.
+ * A RESTful API allows for interaction with the database.
  */
 
 
