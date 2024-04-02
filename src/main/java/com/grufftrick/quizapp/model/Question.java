@@ -1,4 +1,4 @@
-package com.grufftrick.quizapp;
+package com.grufftrick.quizapp.model;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;

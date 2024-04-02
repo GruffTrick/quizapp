@@ -1,6 +1,6 @@
-package com.grufftrick.quizapp.Controller;
+package com.grufftrick.quizapp.controller;
 
-import com.grufftrick.quizapp.Question;
+import com.grufftrick.quizapp.model.Question;
 import com.grufftrick.quizapp.service.QuestionService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;

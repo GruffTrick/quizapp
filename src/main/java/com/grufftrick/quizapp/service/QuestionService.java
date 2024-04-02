@@ -1,6 +1,6 @@
 package com.grufftrick.quizapp.service;
 
-import com.grufftrick.quizapp.Question;
+import com.grufftrick.quizapp.model.Question;
 import com.grufftrick.quizapp.dao.QuestionDAO;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
