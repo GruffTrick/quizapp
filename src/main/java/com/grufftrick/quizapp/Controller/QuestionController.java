@@ -1,5 +1,6 @@
-package com.grufftrick.quizapp;
+package com.grufftrick.quizapp.Controller;
 
+import com.grufftrick.quizapp.Question;
 import com.grufftrick.quizapp.service.QuestionService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
@@ -35,7 +36,4 @@ public class QuestionController {
     public ResponseEntity<String> deleteQuestion(@RequestBody Question question) {
         return questionService.deleteQuestion(question);
     }
-
-    // TODO: DeleteMapping Method?
-    // public String deleteQuestion() {}
 }
