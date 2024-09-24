@@ -11,6 +11,7 @@ import java.util.List;
 /**
  * RESTful controller for the question service.
  */
+@CrossOrigin(origins = "http://localhost:3000")
 @RestController
 @RequestMapping("question")
 public class QuestionController {
